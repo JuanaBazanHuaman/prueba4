@@ -1,0 +1,191 @@
+.contenedor-principal{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.contenedor-secundario-imagen{
+    width: 40%;
+    height: 585px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-login-texto{
+    width: 280px;
+    height: 400px;
+    background-color: #2B1F37;
+    display: flex;
+    color: white;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.contenedor-login-imagen{
+    width:380px;
+    height: 300px;
+    background-color: #2B1F37;
+}
+
+.img-login{
+    display: block;
+    width: 60%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.contenedor-secundario-formulario{
+    width:  610px;
+    height: 585px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-subsecundario-formulario{
+    width: 480px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: #F8F9FB;
+    box-shadow: 0px 0px 15px 10px rgb(240, 241, 243);
+    
+}
+.contenedor-imagen-log-in{
+    width:100px;
+    height: 80px;
+    margin-top: 5px;
+    padding-right: 30px;
+}
+.img-log-in{
+    display: block;
+    width: 110%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+.contenedor-login-in{
+    width: 390px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+   
+}
+.label-logIn{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.contenedor-input-email{
+    width: 390px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(174, 170, 170);
+}
+.input-email{
+    width: 350px;
+    height: 37px;
+    border: none;
+    background-color: #F8F9FB;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+.imgface{
+    display: block;
+    width: 120;
+    height: 27px;
+    padding-top: 5px;
+}
+.contenedor-input-password{
+    width: 390px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(174, 170, 170);
+}
+.input-password{
+    width: 350px;
+    height: 37px;
+    border: none;
+    background-color: #F8F9FB;
+    border-radius: 3px;
+    padding-left: 5px;
+   
+}
+.imgpassword{
+    display: block;
+    width: 100;
+    height: 25px;
+    padding-top: 5px;
+}
+.contenedor-olvidaste-tu-contraseña{
+    width: 390px;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.label-contraseña{
+    width: 390px;
+    height: 30px;
+    text-align: end;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+.contenedor-iniciar-sesion{
+    width: 390px;
+    height: 40px;
+}
+.boton-iniciar-sesion{
+    width: 390px;
+    height: 40px;
+    background-color: #3366FF;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+.contenedor-abrir-cuenta{
+    width: 390px;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.abrir-cuenta{
+    width: 390px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+.tener-cuenta{
+    width: 390px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
